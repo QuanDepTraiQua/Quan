@@ -21,7 +21,7 @@ const Categories = ({ setCate }) => {
     return (
         <View style={{ flexDirection: 'row', alignItems: 'center', marginVertical: 10 }}>
             <Text style={{ fontWeight: "bold", marginHorizontal: 10 }}>Danh mục:</Text>
-            {/* Đã xóa chữ ScrollView thừa */}
+            {}
             <ScrollView 
                 horizontal={true} 
                 showsHorizontalScrollIndicator={false}

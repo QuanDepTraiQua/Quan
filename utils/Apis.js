@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// IP 10.0.2.2 là localhost của máy ảo Android Studio
+
 const BASE_URL = 'http://10.0.2.2:8000/';
 
 export const endpoints = {
@@ -15,7 +15,7 @@ export const endpoints = {
     'material-compare': '/materials/compare/' 
 };
 
-// --- DÁN MÃ CỦA BẠN VÀO 2 DÒNG DƯỚI ---
+
 export const CLIENT_ID = '6NncBfrrThWVHNwvx4Ne5Zvy197VLWX766U8mw6X';
 export const CLIENT_SECRET = 'pbkdf2_sha256$1200000$8Z1ypJvELVObmjQzylUL9g$h2pgYqN4b5yEalUoDoUqFIe7xjazPZMG6q4eGWSd6B4=';
 

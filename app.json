@@ -1,5 +1,6 @@
 {
   "expo": {
+    "jsEngine": "hermes",
     "name": "edocumentappmobile",
     "slug": "edocumentappmobile",
     "version": "1.0.0",
@@ -12,6 +13,7 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "jsEngine": "jsc",
       "supportsTablet": true,
       "bundleIdentifier": "com.thanhduong.edocumentappmobile"
     },

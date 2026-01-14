@@ -5,7 +5,7 @@ import Categories from "../../components/Categories";
 // Lưu ý: Kiểm tra kỹ tên file của bạn trong thư mục components là Material.js hay Materials.js
 import Materials from "../../components/Material"; 
 
-const Home = ({ navigation }) => {
+const Home = ({  }) => {
     const [cate, setCate] = useState(null);
 
     return (
